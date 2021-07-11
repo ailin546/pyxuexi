@@ -1,0 +1,15 @@
+import sys
+t = ('呢',23,True,'哈哈')
+print(t)
+print(t[3])
+for member in t:
+    print(member)
+t = (1,2,'哈哈')
+print(t)
+f = list(t)
+print(f)
+print(t)
+q = tuple(f)
+print(q)
+print(sys.getsizeof(q))
+print(sys.getsizeof(f))
